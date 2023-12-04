@@ -45,7 +45,7 @@ const Table = ({ setHandleModal, setIndex ,setHandleAddModal}) => {
       <SearchFlex>
         <Search>
           <input type="text" placeholder="Search...." />
-          <SearchRoundedIcon />
+          <SearchRoundedIcon color="disabled"/>
         </Search>
         <ButtonFlex>
           <Button onClick={addNewProduct}>Add Item</Button>
